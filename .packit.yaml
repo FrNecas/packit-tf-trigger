@@ -8,5 +8,5 @@ jobs:
   tf_extra_params:
     environments:
       - tmt:
-          context:
-            how: "full"
+        context:
+          distro: "rhel-7.9"
