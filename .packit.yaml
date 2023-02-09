@@ -1,6 +1,12 @@
+packit_instances: ["stg"]
 jobs:
 - job: tests
   trigger: pull_request
   targets:
     - fedora-36
   skip_build: True
+  tf_extra_params:
+    environments:
+      - tmt:
+          context:
+            how: "full"
