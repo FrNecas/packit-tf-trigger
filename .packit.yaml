@@ -9,4 +9,4 @@ jobs:
     environments:
       - tmt:
         context:
-          distro: "rhel-7.9"
+          how: "full"
