@@ -1,4 +1,4 @@
-packit_instances: ["stg"]
+packit_instances: ["stg", "prod"]
 jobs:
 - job: tests
   trigger: pull_request
