@@ -1,0 +1,4 @@
+summary: Get specfile's Epoch
+test: ./script.py
+framework: shell
+require: python3-specfile
